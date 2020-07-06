@@ -38,7 +38,7 @@ class PostsController extends Controller
     public function store(CreatePostRequest $request)
     {
 
-        /////////////// File upload
+        /////////////// File upload // testing branch
 
         // $file = $request->file('file');
         // echo "<br>";
