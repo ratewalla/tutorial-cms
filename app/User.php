@@ -66,17 +66,17 @@ class User extends Authenticatable
     }
 
 
-    // Accessor gets data
-    public function getNameAttribute($value){
+    // // Accessor gets data
+    // public function getNameAttribute($value){
 
-        return strtoupper($value);
+    //     return strtoupper($value);
 
-    }
+    // }
 
-    // Mutator sets data
-    public function setNameAttribute($value){
+    // // Mutator sets data
+    // public function setNameAttribute($value){
 
-        $this->attributes['name']=strtoupper($value);
+    //     $this->attributes['name']=strtoupper($value);
 
-    }
+    // }
 }
